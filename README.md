@@ -8,5 +8,8 @@ This file is the driver for Gosai that allows to get the data from the sensors p
 - Processing.py python code that itnitialize wich driver the app is going to need to display on the pool table. it uses the sensor server driver
 - The display file is the main sketch of the project. These are the animations displayed on the pool table. It retrieves the data sent by the sensor server driver and makes an interactive display 
 
+## client.ino : 
+The arduino code able to get the data from the motion sensors and process them to send only distances in cm
+
 ## arduinoWebSockets-master.zip : 
 The library needed to run the arduino code 
